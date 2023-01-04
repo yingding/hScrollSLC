@@ -77,7 +77,7 @@ fun horizontalScollSLC(hasChildSLC: Boolean) {
                     ) {
                         Text(
                             modifier = Modifier.align(Alignment.Center),
-                            //.edgeSwipeToDismiss(swipeDismissState)
+                            // .horizontalScroll(horizontalScrollState) // works
                             text = "This text can be scrolled horizontally - to dismiss, swipe " +
                                     "right from the left edge of the screen (called Edge Swiping)",
                         )
