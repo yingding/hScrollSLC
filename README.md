@@ -1,4 +1,4 @@
-# Hori
+# horizontalScroll conflicts on SLC
 
 This repo shows that the `horizontalScroll` modifier doesn't work on the parent composable of `androidx.wear.compose.material.ScalingLazyColumn`,
 On the contrary, `horizontalScroll` works on 
