@@ -56,12 +56,11 @@ fun horizontalScollSLC(hasChildSLC: Boolean) {
         Box(
             modifier = Modifier.horizontalScroll(horizontalScrollState), // doesn't work
         ) {
-
-                ScalingLazyColumn {
-                    item {
-                        Text("hi")
-                    }
-                }
+//                ScalingLazyColumn {
+//                    item {
+//                        Text("hi")
+//                    }
+//                }
             Alert(
                 // modifier = Modifier.horizontalScroll(horizontalScrollState), // doesn't work
                 title = {
